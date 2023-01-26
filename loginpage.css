@@ -1,5 +1,44 @@
-
-.solkutu{width:50%; display: inline-block;border: 3px solid; padding: 10px;justify-content: space-between;
+body,html{
+    width: 100%;
+    height: 99%;
+    
 }
-.sagkutu{width: 50%;display: inline-block;border: 3px solid; padding: 10px;margin: auto;
+
+.kutu{
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    margin: 8%;
+    background-color: rgb(224, 224 , 224);
+   
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yazı{font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 70%;
+}
+.kutu2{
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8%;
+    background-color: rgb(224, 224 , 224);
+   
 }
